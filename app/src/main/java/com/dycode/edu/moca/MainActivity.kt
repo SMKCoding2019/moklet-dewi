@@ -1,5 +1,6 @@
 package com.dycode.edu.moca
 
+
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.support.v7.app.AppCompatActivity
@@ -16,7 +17,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar);
         val actionBar = supportActionBar;
         actionBar!!.setDisplayShowHomeEnabled(true);
         actionBar.setBackgroundDrawable(ColorDrawable(Color.parseColor("#14000000")));
